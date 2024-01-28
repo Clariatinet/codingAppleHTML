@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+}
+
+.blog-content {
+  width: 80%;
+  height: 200px;
+  background-color: #eee;
+  float: left;
+}
+
+.blog-img {
+  width: 20%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-profile {
+  width: 50px;
+  float: left;
+}
+
+.blog-name {
+  float: left;
+}

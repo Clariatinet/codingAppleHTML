@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://codingapple.com/wp-content/uploads/2019/06/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  /* margin-top: 150px; */
+  margin-left: 30px;
+  text-align: center;
+}
+
+.main-p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  /* position: absolute;
+  bottom: 20px;
+  right: 20px; */
+}
+
+.sentence {
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+  background-color: rgb(219, 219, 219);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 100px;
+  margin: auto;
+}
+
+.sentence__h2 {
+  margin-top: 80px;
+}
+
+.sentence__p {
+  font-size: 16px;
+}
+
+.form-background {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.form-container_box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.form-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+form h4 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+form input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  position: relative;
+  bottom: 15px;
+}
+
+input::placeholder {
+  color: rgb(179, 179, 179);
+}
+
+.form__name {
+  display: flex;
+}
+
+.form__lastName {
+  margin-left: 10px;
+}
+
+form input[type='text'] {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  position: relative;
+  bottom: 15px;
+}
+
+form textarea {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  position: relative;
+  bottom: 15px;
+  resize: none;
+}
+
+.form__send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.form__send-input {
+  display: flex;
+  position: relative;
+}
+
+.form__send-input label {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.form__send button {
+  border: none;
+  background-color: rgb(240, 159, 46);
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
