@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(135, 185, 205);
+}
+
+.shopping-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shopping-title {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(64, 111, 129);
+}
+
+.tbody-img {
+  width: 400px;
+}

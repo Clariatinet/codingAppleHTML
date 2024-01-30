@@ -1,0 +1,31 @@
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: chocolate;
+}
+
+.btn:focus {
+  background-color: gray;
+}
+
+.btn:active {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: aqua;
+}
+
+.custom-link:visited {
+  color: black;
+}
