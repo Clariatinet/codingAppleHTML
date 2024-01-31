@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-title {
+  font-size: 20px;
+  margin-left: 15px;
+  color: white;
+}
+
+.flex-category {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.flex-categoryService {
+  margin-left: 8px;
+}
