@@ -1,8 +1,33 @@
-td,
-th {
-  border: 1px solid black;
+* {
+  box-sizing: border-box;
 }
 
-table {
-  border-collapse: collapse;
+body {
+  margin: 0;
+}
+
+.shopping-box {
+  background-color: beige;
+  padding: 20px;
+}
+
+.shopping-container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 1;
+}
+
+.shopping-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shopping-item img {
+  width: 100%;
 }
